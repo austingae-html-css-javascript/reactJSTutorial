@@ -1,37 +1,7 @@
 * {
   box-sizing: content-box;
+}
+
+body {
   margin: 0rem;
-}
-
-.HeaderContainer {
-  width: 700px;
-  margin: 0rem auto 0rem auto;
-  /*
-  Parent Div's Width = Child Div's Width + Padding + Border + Margin
-  1020px = 700px + 0px + 0px + (160px + 160px)
-  */
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  margin-top: 1rem;
-}
-
-.TaskTrackerTitle {
-  color: darkslateblue;
-}
-
-.AddButton {
-  /*Width and Padding*/
-  color: white;
-  background-color: black;
-
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-
-  /*Border*/
-  border: none;
-  border-radius: 0.5rem;
-
-
 }
